@@ -43,9 +43,11 @@ function handleBooks(shelf, books) {
 
 function displayRead(book) {
 
-    currentDiv = $('.currently-reading');
-    currentDiv.append(`<p>${book.title}</p>`);
-    currentDiv.append(`<img src= ${book.imageUrl}>`);
+    scrollDiv = $('.scrolling-wrapper-flexbox');
+    scrollDiv.append(`<div class="current-book col">
+    <img src= ${book.imageUrl}>
+    <p>${book.title}</p>
+    </div>`);
 }
 
 // function getBookTitles(books) {
