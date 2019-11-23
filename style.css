@@ -1,49 +1,26 @@
 body {
-    font-family: 'Lora', serif;
-    background: #FFF1E0;
+  font-family: "Lora", serif;
+  background: #fff1e0;
 }
 
 .heading {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 .current-book {
-background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #85144b;
 
-    border-radius: 10px;
-    color: white;
+  border-radius: 4px;
+  color: white;
 
+  -webkit-box-shadow: 10px 10px 79px -34px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 10px 10px 79px -34px rgba(0, 0, 0, 0.7);
+  box-shadow: 10px 10px 79px -34px rgba(0, 0, 0, 0.7);
 
--webkit-box-shadow: 10px 10px 79px -34px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 10px 79px -34px rgba(0,0,0,0.37);
-box-shadow: 10px 10px 79px -34px rgba(0,0,0,0.37);
-flex: 0 0 auto;
-
-width: 50%;
-
-margin: 0 30px;
-padding: 0;
+  margin: 10px;
+  padding: 15px;
 }
 
-.currently-reading {
-    margin: 30px 0;
+p {
+    margin-bottom:10px;
 }
-
-.scrolling-wrapper-flexbox {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  margin-left: 20vw;
-  /* width: 70%; */
-  /* background: none; */
-  /* background-color: inherit; */
-}
-
- .scrolling-wrapper-flexbox::-webkit-scrollbar {
-    display: none; }
-  .scrolling-wrapper-flexbox::-moz-scrollbar {
-    display: none; }
-  .scrolling-wrapper-flexboxscrollbar {
-    display: none; }
